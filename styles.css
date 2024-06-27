@@ -1,0 +1,48 @@
+h1,p{
+    text-align:center;
+    margin: 1rem auto;
+  }
+body{
+background-image: url("pic.jpg");
+}
+label {
+    display: block;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+    font-size: larger;
+    font-weight: 900;
+
+  } 
+   #name,#email,#number,#role,#decision{
+    display: block;
+    font-size: large;
+    margin-top: 5px;
+    font-weight: 250;
+    width: 400px;
+   }
+   .para{
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+    font-weight: 900;
+    text-align: left;
+    
+   }
+  fieldset{
+    display: inline-block;
+    width: 64%;
+}   
+form {
+    display: flex;
+    padding: 25px;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+    max-width: 5000px;
+    min-width: 300px;
+    margin: 0 auto;
+  }
+  
+      
+ 
+  
